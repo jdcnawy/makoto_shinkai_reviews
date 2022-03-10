@@ -1,0 +1,141 @@
+.navbar {
+    background-color: lightblue;
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-size: cover;
+    border: 3px solid lightblue;
+    opacity: 0.8;
+}
+
+.navbar a{
+  display:flex;
+  padding: 10px 20px;
+}
+.navbar5cm {
+    background-color: #f7d5e8;
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    background-size: cover;
+    border: 3px solid #f7d5e8;
+    opacity: 0.85;
+}
+
+.navbar5cm a{
+  display:flex;
+  padding: 10px 20px;
+}
+body{
+  font-family: 'Barlow', sans-serif;
+  background-color: #c7fffb;
+  text-align: center;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration:underline ;
+    color: black;
+
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  text-decoration: underline;
+  justify-content: inherit;
+  display:flex;
+  padding: 10px 20px;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: lightblue;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding-top: 25px;
+z-index: -1;
+align-items: center;
+justify-content: center;
+}
+.dropdown-content-Garden {
+  display: none;
+  background-color: #539126;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding-top: 25px;
+z-index: -1;
+align-items: center;
+justify-content: center;
+}
+.dropdown-content-5cm {
+  display: none;
+  background-color: #f7d5e8;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding-top: 25px;
+z-index: -1;
+align-items: center;
+justify-content: center;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropdown-content-Garden {
+  display: block;
+}
+.dropdown:hover .dropdown-content-5cm {
+  display: block;
+}
+.flexParent {
+  display: flex;
+  font-size: 30px;
+}
+.flexParentGarden {
+  display: flex;
+  font-size: 30px;
+}
+.flexParent5cm {
+  display: flex;
+  font-size: 30px;
+}
+.flexParent div {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: 20px;
+  padding: 10px;
+  background-color:rgba(45, 133, 200, 0.9);
+}
+
+.flexParent > div {
+  max-width: 500px;
+}
+img{
+  width: 500px;
+}
+.flexParentGarden div {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: 20px;
+  padding: 10px;
+  background-color:rgba(75, 130, 40, 0.9);
+}
+
+.flexParentGarden > div {
+  max-width: 500px;
+}
+.flexParent5cm div {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: 20px;
+  padding: 10px;
+  background-color:rgba(208, 148, 173, 0.9);
+}
+
+.flexParent5cm > div {
+  max-width: 500px;
+}
+img{
+  width: 500px;
+}
