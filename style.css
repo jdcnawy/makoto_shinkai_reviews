@@ -142,10 +142,13 @@ img{
 img{
   width: 500px;
 }
-@media (max-width: 1000px){
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) {
 .flexParent{
-flex-direction: column;
-justify-content: center;
-align-items: center;
+justify-content:center;
+align-items:center;
+   flex-direction:column;
     }
 }
