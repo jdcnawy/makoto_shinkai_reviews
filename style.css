@@ -142,8 +142,10 @@ img{
 img{
   width: 500px;
 }
-@media (max-width: 800px){
+@media (max-width: 1000px){
 .flexParent{
 flex-direction: column;
+justify-content: center;
+align-items: center;
     }
 }
