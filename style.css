@@ -147,7 +147,6 @@ and (min-device-width: 375px)
 and (max-device-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3) {
 .flexParent{
-justify-content:center;
 align-items:center;
    flex-direction:column;
     }
@@ -156,5 +155,6 @@ background-attachment:fixed;
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
+     background-color: inherit;
     }
 }
